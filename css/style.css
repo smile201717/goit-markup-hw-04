@@ -108,8 +108,7 @@ ul {
     color: var(--logo-color);
     padding-top: 24px;
     padding-bottom: 24px;
-
-
+    transition: color 250ms linear;
 }
 
 .header-menu:hover,
@@ -133,6 +132,7 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms linear;
 
 }
 
@@ -144,13 +144,19 @@ ul {
 /*----------HERO-----------*/
 
 .hero {
-    /*width: 100%;
-    max-width: 1440px;*/
+    width: 100%;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     /*height: 600px;*/
     background: var(--logo-color);
-    /*margin: auto;*/
+    background-color: url(../images/office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
 }
 
 /*.hero-container {  
@@ -181,7 +187,7 @@ ul {
     color: #FFFFFF;
     background-color: var(--button-color);
     cursor: pointer;
-
+    transition: color 250ms linear;
 }
 
 .hero-button {
@@ -193,6 +199,7 @@ ul {
     border: none;
     border-radius: 4px;
     margin-top: 48px;
+
 }
 
 .hero-button:hover,
@@ -230,6 +237,17 @@ ul {
 .scroll-item {
     width: calc((100%-72)/4);
 
+}
+
+.scroll-img {
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scroll-name {
@@ -285,6 +303,7 @@ ul {
     padding-bottom: 120px;
 }
 
+
 .made-team {
     font-weight: 700;
     font-size: 36px;
@@ -297,14 +316,14 @@ ul {
 
 }
 
-.made-list {
-    display: flex;
-    gap: 24px;
-}
+
 
 .made-item {
     background-color: #FFFFFF;
     width: 264px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
@@ -333,6 +352,52 @@ ul {
     /*margin-bottom: 32px;*/
     text-align: center;
 }
+
+.made-list {
+    display: flex;
+    gap: 24px;
+}
+
+.made-img {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    padding: 0%;
+    width: 232px;
+    height: 40px;
+}
+
+.made-soc {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: var(--button-color);
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.made-img-soc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 250ms linear;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: #404bbf;
+}
+
+.team-soc-icon {
+    fill: var(--safari-color);
+}
+
+
 
 /*----------FOOTER-----------*/
 
@@ -414,6 +479,7 @@ ul {
     padding-right: 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    transition: color 250ms linear;
 }
 
 .button-soc:hover,
