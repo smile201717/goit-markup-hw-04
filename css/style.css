@@ -615,9 +615,10 @@ ul {
     border-radius: 4px;
     /*transition: color 250ms linear;*/
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .button-soc:hover,
@@ -675,8 +676,9 @@ ul {
 
 
 
+
 .section-work:hover .section-cover-blok {
-    transform: translate(0);
+    transform: translateY(0);
 }
 
 .section-activity {
