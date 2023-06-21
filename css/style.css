@@ -744,8 +744,13 @@ ul {
 .icon-close-black {
     fill: currentColor;
     transition: fill var(--transition);
-    fill: rgb(0, 0, 0);
+    /* fill: rgb(0, 0, 0);*/
 
+}
+
+.icon-close-black:hover,
+.icon-close-black:focus {
+    fill: #ffffff;
 }
 
 .modal-btn {
@@ -769,8 +774,9 @@ ul {
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
-    /*color: #ffffff;*/
-    color: fill #ffffff
+    color: #ffffff;
+    /* ;
+    fill #ffffff;*/
 }
 
 .is-hidden {
