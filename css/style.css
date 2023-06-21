@@ -769,7 +769,7 @@ ul {
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
-    color: #ffffff;
+    /*color: #ffffff;*/
     fill: #ffffff
 }
 
