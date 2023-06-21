@@ -453,7 +453,7 @@ ul {
 }
 
 .customers-company {
-    width: calc((100%-120px)/6);
+    width: calc((100% - 120px)/6);
     height: 88px;
 }
 
@@ -634,96 +634,6 @@ ul {
 .section-portfolio {
     padding: 96px 0 120px;
 }
-
-/*.section {
-
-    display: block;
-    transition: box-shadow var(--transition);
-}
-
-.section:hover,
-.section:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.section-img {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
-    width: 1128px;
-
-}
-
-
-.section-info {
-
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    padding: 32px 16px;
-}
-
-
-.section-work {
-    width: 360px;
-}
-
-.karman {
-
-    overflow: hidden;
-    position: relative;
-
-}
-
-
-.section-work:hover .section-cover-blok {
-    transform: translateY(0);
-}
-
-.section-activity {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.20;
-    letter-spacing: 0.02em;
-    color: var(--logo-color);
-    margin-bottom: 8px;
-    /*------padding-left: 16px;----
-
-}
-
-.section-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    color: var(--text-section-color);
-    /*-----padding-left: 16px;
-}
-
-.section-cover-banking {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
-
-
-
-
-
-.section-cover-blok {
-    position: absolute;
-    background-color: #fff;
-    top: 0%;
-    left: 0;
-    padding-top: 40px;
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-bottom: 164px;
-    background: #4D5AE5;
-    transform: translateY(100%);
-    transition: var(--transition);
-}*/
 
 .examples-list {
     display: flex;
